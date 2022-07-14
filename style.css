@@ -1,28 +1,48 @@
-body {
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-h1 {
+html {
+    font-size: 10px;
     font-family: 'Poppins', sans-serif;
-    color: black;
-    text-align: center;
-    font-size: 50px;
 }
 
-p {
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    text-align: center;
-    font-size: 20px;
-    padding-left: 25%;
-    padding-right: 25%;
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.822);
 }
 
-.linked-button {
+.container h1 {
+    font-size: 800%;
+}
+
+.container p {
+    font-size: 200%;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 2%;
+}
+
+.cta {
     text-decoration: none;
-    background-color: red;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.822);
     padding: 10px 40px;
-    background-position: center;
+    color: rgba(0, 0, 0, 0.661);
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#hero {
+    background-image: url(image/Picture1.png);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    text-align: center;
 }
