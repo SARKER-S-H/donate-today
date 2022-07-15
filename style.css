@@ -74,10 +74,11 @@ h2 {
     margin-bottom: 30px;
     background-color: rgb(238, 237, 237);
     display: inline-block;
-    min-height: 18vh;
+    min-height: auto;
     width: 10%;
     border-radius: 10px;
-    padding-top: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     font-size: 20px;
     font-weight: bolder;
