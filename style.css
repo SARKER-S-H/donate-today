@@ -37,7 +37,7 @@ html {
     border-radius: 25px;
     font-weight: 1000;
     font-size: 12px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 #hero {
@@ -158,4 +158,24 @@ input {
 .icon {
     height: 60px;
     width: 60px;
+}
+
+footer {
+    margin-top: 80px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.863);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer h3 {
+    color: rgb(255, 77, 77);
+    font-size: 250%;
+    font-family: 'Lobster', cursive;
+}
+
+footer p {
+    margin-top: 10px;
+    color: rgb(187, 187, 187);
+    font-size: 100%;
 }
