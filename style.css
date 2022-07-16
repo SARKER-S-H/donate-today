@@ -40,7 +40,7 @@ html {
     margin-bottom: 80px;
 }
 
-#hero {
+#first {
     background-image: url(image/Picture1.png);
     background-size: cover;
     background-position: top center;
@@ -99,6 +99,8 @@ h2 {
     border-bottom: 1px solid rgb(187, 187, 187);
     width: 600px;
     height: 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container-two {
@@ -237,4 +239,49 @@ footer p {
     margin-top: 10px;
     color: rgb(238, 237, 237);
     font-size: 100%;
+}
+
+#video {
+    background-image: url(image/ezgif.com-gif-maker.png);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    text-align: right;
+    margin-top: 60px;
+}
+
+.video_container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding-right: 25px;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.video_container h2 {
+    padding-left: 550px;
+    font-size: 400%;
+    text-align: right;
+}
+
+.video_container p {
+    padding-left: 600px;
+    font-size: 150%;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.video_container a {
+    text-decoration: none;
+    background-color: rgb(255, 77, 77);
+    padding: 10px 30px;
+    color: rgba(255, 255, 255, 0.822);
+    border-radius: 25px;
+    font-weight: 1000;
+    font-size: 12px;
+    margin-bottom: 80px;
 }
