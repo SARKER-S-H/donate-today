@@ -90,7 +90,7 @@ h2 {
     color: rgb(255, 77, 77);
 }
 
-input {
+#input-taka {
     margin-top: 30px;
     margin-bottom: 30px;
     border-top: none;
@@ -99,12 +99,6 @@ input {
     border-bottom: 1px solid rgb(187, 187, 187);
     width: 600px;
     height: 40px;
-}
-
-::placeholder {
-    text-align: center;
-    color: lightgray;
-    font-size: medium;
 }
 
 .container-two {
@@ -160,6 +154,71 @@ input {
     width: 60px;
 }
 
+.container-five {
+    min-height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.updates {
+    text-align: center;
+}
+
+.updates h2 {
+    margin-top: 80px;
+}
+
+.updates p {
+    font-size: 150%;
+    padding-top: 15px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 15px;
+    color: grey;
+}
+
+.last-one {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 60px;
+    background-color: rgba(255, 196, 1, 0.257);
+}
+
+input {
+    display: inline-block;
+    font-size: 15px;
+}
+
+input[type="text"] {
+    background: rgb(238, 237, 237);
+    border: 0;
+    outline: none;
+    width: 340px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    color: black;
+    border-radius: 5px 0 0 5px;
+}
+
+input[type="submit"] {
+    background-color: rgb(255, 77, 77);
+    border-radius: 0px 5px 5px 0px;
+    border-style: none;
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgba(255, 255, 255, 0.822);
+    margin-left: -5px;
+}
+
 footer {
     margin-top: 80px;
     text-align: center;
@@ -176,6 +235,6 @@ footer h3 {
 
 footer p {
     margin-top: 10px;
-    color: rgb(187, 187, 187);
+    color: rgb(238, 237, 237);
     font-size: 100%;
 }
